@@ -410,8 +410,7 @@ docker run -d -p 8081:8081 yourusername/sentiment-app:latest
 
 ##  License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the MIT License.
 ##  Acknowledgments
 
 - Scikit-learn for machine learning tools
