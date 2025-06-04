@@ -2,6 +2,7 @@ from flask import Flask, request, render_template
 import pickle
 import re
 import string
+print("Starting sentiment app...")
 
 app = Flask(__name__)
 
@@ -35,4 +36,4 @@ def predict():
     return render_template('index.html', review=review, prediction=sentiment)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port=8081)
